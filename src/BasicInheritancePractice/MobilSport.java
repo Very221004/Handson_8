@@ -1,3 +1,5 @@
+package BasicInheritancePractice;
+
 public class MobilSport extends Mobil {
     private boolean turbo;
     private int kecepatanMaksimal;
@@ -8,7 +10,7 @@ public class MobilSport extends Mobil {
         super(merk, warna, tahunProduksi, jumlahPintu, jenisBahanBakar);
         this.turbo = turbo;
         this.kecepatanMaksimal = kecepatanMaksimal;
-        System.out.println("Constructor MobilSport dipanggil");
+        System.out.println("Constructor BasicInheritancePractice.MobilSport dipanggil");
     }
 
     @Override

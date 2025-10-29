@@ -1,3 +1,5 @@
+package MethodOverriding;
+
 public class MethodOverridingPractice {
     public static void main(String[] args) {
 

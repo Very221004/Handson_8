@@ -1,3 +1,5 @@
+package BasicInheritancePractice;
+
 public class Truk extends Kendaraan {
     private double kapasitasMuatan;
     private int jumlahRoda;
@@ -6,7 +8,7 @@ public class Truk extends Kendaraan {
         super(merk, warna, tahunProduksi);
         this.kapasitasMuatan = kapasitasMuatan;
         this.jumlahRoda = jumlahRoda;
-        System.out.println("Constructor Truk dipanggil");
+        System.out.println("Constructor BasicInheritancePractice.Truk dipanggil");
     }
 
     @Override

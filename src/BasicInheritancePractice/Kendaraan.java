@@ -1,3 +1,5 @@
+package BasicInheritancePractice;
+
 import java.time.Year;
 
 public class Kendaraan {
@@ -11,7 +13,7 @@ public class Kendaraan {
         this.warna = warna;
         this.tahunProduksi = tahunProduksi;
         this.nomorRangka = generateNomorRangka();
-        System.out.println("Constructor Kendaraan dipanggil");
+        System.out.println("Constructor BasicInheritancePractice.Kendaraan dipanggil");
     }
 
     private String generateNomorRangka() {
@@ -19,7 +21,7 @@ public class Kendaraan {
     }
 
     public void displayInfo() {
-        System.out.println("=== Info Kendaraan ===");
+        System.out.println("=== Info BasicInheritancePractice.Kendaraan ===");
         System.out.println("Merk: " + merk);
         System.out.println("Warna: " + warna);
         System.out.println("Tahun Produksi: " + tahunProduksi);

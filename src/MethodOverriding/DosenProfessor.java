@@ -1,3 +1,5 @@
+package MethodOverriding;
+
 public class DosenProfessor extends Dosen {
     private String gelarProfesor;
     private int jumlahPenelitian;
@@ -8,7 +10,7 @@ public class DosenProfessor extends Dosen {
         super(nip, nama, jurusan, mataKuliah, pengalamanMengajar);
         this.gelarProfesor = gelarProfesor;
         this.jumlahPenelitian = jumlahPenelitian;
-        System.out.println("DosenProfessor constructor called");
+        System.out.println("MethodOverriding.DosenProfessor constructor called");
     }
 
     @Override

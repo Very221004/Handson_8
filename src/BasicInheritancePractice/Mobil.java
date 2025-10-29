@@ -1,3 +1,5 @@
+package BasicInheritancePractice;
+
 public class Mobil extends Kendaraan {
     private int jumlahPintu;
     private String jenisBahanBakar;
@@ -6,7 +8,7 @@ public class Mobil extends Kendaraan {
         super(merk, warna, tahunProduksi);
         this.jumlahPintu = jumlahPintu;
         this.jenisBahanBakar = jenisBahanBakar;
-        System.out.println("Constructor Mobil dipanggil");
+        System.out.println("Constructor BasicInheritancePractice.Mobil dipanggil");
     }
 
     @Override

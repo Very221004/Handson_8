@@ -1,3 +1,5 @@
+package BasicInheritancePractice;
+
 public class BasicInheritancePractice {
     public static void main(String[] args) {
         System.out.println("=== INHERITANCE DASAR ===");
@@ -21,9 +23,9 @@ public class BasicInheritancePractice {
         mobilSport.aktifkanTurbo();
 
         System.out.println("\n=== TESTING INHERITANCE ===");
-        System.out.println("mobilSport instanceof MobilSport: " + (mobilSport instanceof MobilSport));
-        System.out.println("mobilSport instanceof Mobil: " + (mobilSport instanceof Mobil));
-        System.out.println("mobilSport instanceof Kendaraan: " + (mobilSport instanceof Kendaraan));
+        System.out.println("mobilSport instanceof BasicInheritancePractice.MobilSport: " + (mobilSport instanceof MobilSport));
+        System.out.println("mobilSport instanceof BasicInheritancePractice.Mobil: " + (mobilSport instanceof Mobil));
+        System.out.println("mobilSport instanceof BasicInheritancePractice.Kendaraan: " + (mobilSport instanceof Kendaraan));
         System.out.println("mobilSport instanceof Object: " + (mobilSport instanceof Object));
 
         System.out.println("\nProtected property (merk): " + mobilSport.merk);

@@ -1,3 +1,5 @@
+package MethodOverriding;
+
 public class Mahasiswa {
     private String nim;
     private String nama;
@@ -13,7 +15,7 @@ public class Mahasiswa {
 
     @Override
     public String toString() {
-        return "Mahasiswa{nim='" + nim + "', nama='" + nama + "', jurusan='" + jurusan + "', ipk=" + ipk + "}";
+        return "MethodOverriding.Mahasiswa{nim='" + nim + "', nama='" + nama + "', jurusan='" + jurusan + "', ipk=" + ipk + "}";
     }
 
     @Override

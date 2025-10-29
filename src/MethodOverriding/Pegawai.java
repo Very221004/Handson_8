@@ -1,3 +1,5 @@
+package MethodOverriding;
+
 public class Pegawai {
     protected String nip;
     protected String nama;
@@ -7,11 +9,11 @@ public class Pegawai {
         this.nip = nip;
         this.nama = nama;
         this.jurusan = jurusan;
-        System.out.println("Pegawai constructor called");
+        System.out.println("MethodOverriding.Pegawai constructor called");
     }
 
     public void displayInfo() {
-        System.out.println("=== Info Pegawai ===");
+        System.out.println("=== Info MethodOverriding.Pegawai ===");
         System.out.println("NIP: " + nip);
         System.out.println("Nama: " + nama);
         System.out.println("Jurusan: " + jurusan);
@@ -22,7 +24,7 @@ public class Pegawai {
     }
 
     protected void methodProtected() {
-        System.out.println("Protected method in Pegawai");
+        System.out.println("Protected method in MethodOverriding.Pegawai");
     }
 
     public final void calculateSalary() {
@@ -31,7 +33,7 @@ public class Pegawai {
 
     @Override
     public String toString() {
-        return "Pegawai{nip='" + nip + "', nama='" + nama + "', jurusan='" + jurusan + "'}";
+        return "MethodOverriding.Pegawai{nip='" + nip + "', nama='" + nama + "', jurusan='" + jurusan + "'}";
     }
 
     @Override
